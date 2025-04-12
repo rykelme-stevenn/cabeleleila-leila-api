@@ -1,0 +1,31 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "Rykelme Steven",
+        "email": "rykelmesteven@outlook.com",
+        "password": "Corinthians1910"
+      }
+    ],
+    "services": [
+        {
+            "id": 1, 
+            "name": "Cabelos",
+            "value": 155,
+            "estimated_time": 70
+
+        },
+        {
+            "id": 2, 
+            "name": "Unhas",
+            "value": 50,
+            "estimated_time": 40
+        },
+        {
+            "id": 3, 
+            "name": "Hidratação",
+            "value": 80,
+            "estimated_time": 60
+        }
+    ]
+  }
