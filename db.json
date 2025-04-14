@@ -1,31 +1,54 @@
 {
-    "users": [
-      {
-        "id": 1,
-        "name": "Rykelme Steven",
-        "email": "rykelmesteven@outlook.com",
-        "password": "Corinthians1910"
-      }
-    ],
-    "services": [
-        {
-            "id": 1, 
-            "name": "Cabelos",
-            "value": 155,
-            "estimated_time": 70
-
-        },
-        {
-            "id": 2, 
-            "name": "Unhas",
-            "value": 50,
-            "estimated_time": 40
-        },
-        {
-            "id": 3, 
-            "name": "Hidratação",
-            "value": 80,
-            "estimated_time": 60
-        }
-    ]
-  }
+  "users": [
+    {
+      "id": 1,
+      "name": "Rykelme Steven",
+      "email": "rykelmesteven@outlook.com",
+      "password": "Corinthians1910"
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "name": "Cabelos",
+      "value": 155,
+      "estimated_time": 70
+    },
+    {
+      "id": 2,
+      "name": "Unhas",
+      "value": 50,
+      "estimated_time": 40
+    },
+    {
+      "id": 3,
+      "name": "Hidratação",
+      "value": 80,
+      "estimated_time": 60
+    }
+  ],
+  "schedulings": [
+    {
+      "id": "1c0e",
+      "user_id": 1,
+      "day": 14,
+      "month": 3,
+      "weekday": "Seg",
+      "year": 2025,
+      "hour": 9,
+      "minute": 0,
+      "service_id": 1
+    },
+    {
+      "id": "457b",
+      "user_id": 1,
+      "day": 14,
+      "month": 3,
+      "weekday": "Seg",
+      "year": 2025,
+      "hour": 16,
+      "minute": 0,
+      "service_id": 1
+    }
+  ]
+}
