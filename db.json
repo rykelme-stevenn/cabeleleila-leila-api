@@ -3,8 +3,16 @@
     {
       "id": 1,
       "name": "Rykelme Steven",
-      "email": "rykelmesteven@outlook.com",
-      "password": "Corinthians1910"
+      "email": "teste@outlook.com",
+      "password": "teste123",
+      "owner": false
+    },
+    {
+      "id": 2,
+      "name": "leila",
+      "email": "leilacabeleleila@outlook.com",
+      "password": "Corte123",
+      "owner": true
     }
   ],
   "services": [
@@ -29,26 +37,171 @@
   ],
   "schedulings": [
     {
-      "id": "1c0e",
       "user_id": 1,
-      "day": 14,
+      "day": 19,
       "month": 3,
-      "weekday": "Seg",
+      "weekday": "Sáb",
       "year": 2025,
-      "hour": 9,
-      "minute": 0,
-      "service_id": 1
+      "hour": 12,
+      "minute": 20,
+      "status": 4,
+      "service": {
+        "id": 2,
+        "name": "Unhas",
+        "value": 50,
+        "estimated_time": 40
+      },
+      "id": "e390"
     },
     {
-      "id": "457b",
       "user_id": 1,
+      "day": 15,
+      "month": 3,
+      "weekday": "Ter",
+      "year": 2025,
+      "hour": 15,
+      "minute": 0,
+      "status": 3,
+      "service": {
+        "id": 2,
+        "name": "Unhas",
+        "value": 50,
+        "estimated_time": 40
+      },
+      "id": "2bb8"
+    },
+    {
+      "id": "3ff0",
+      "user_id": 1,
+      "day": 19,
+      "month": 3,
+      "weekday": "Qui",
+      "year": 2025,
+      "hour": 12,
+      "minute": 20,
+      "status": 3,
+      "service": {
+        "id": 3,
+        "name": "Hidratação",
+        "value": 80,
+        "estimated_time": 60
+      },
+      "created_at": "2025-04-15T12:49:51.913Z",
+      "updated_at": "2025-04-15T12:49:51.913Z"
+    },
+    {
+      "id": "44b3",
+      "user_id": 2,
+      "day": 17,
+      "month": 3,
+      "weekday": "Qui",
+      "year": 2025,
+      "hour": 10,
+      "minute": 10,
+      "status": 3,
+      "service": {
+        "id": 1,
+        "name": "Cabelos",
+        "value": 155,
+        "estimated_time": 70
+      },
+      "created_at": "2025-04-15T13:14:24.193Z",
+      "updated_at": "2025-04-15T13:14:24.193Z"
+    },
+    {
+      "id": "asd3",
+      "user_id": 2,
       "day": 14,
       "month": 3,
       "weekday": "Seg",
       "year": 2025,
-      "hour": 16,
+      "hour": 10,
+      "minute": 10,
+      "status": 3,
+      "service": {
+        "id": 1,
+        "name": "Cabelos",
+        "value": 155,
+        "estimated_time": 70
+      },
+      "created_at": "2025-04-15T13:14:24.193Z",
+      "updated_at": "2025-04-15T13:14:24.193Z"
+    },
+    {
+      "id": "767b",
+      "user_id": 1,
+      "day": 20,
+      "month": 3,
+      "weekday": "Dom",
+      "year": 2025,
+      "hour": 13,
+      "minute": 40,
+      "status": 2,
+      "service": {
+        "id": 2,
+        "name": "Unhas",
+        "value": 50,
+        "estimated_time": 40
+      },
+      "created_at": "2025-04-15T13:24:39.542Z",
+      "updated_at": "2025-04-15T13:24:39.542Z"
+    },
+    {
+      "id": "9f05",
+      "user_id": 2,
+      "day": 20,
+      "month": 3,
+      "weekday": "Dom",
+      "year": 2025,
+      "hour": 14,
+      "minute": 20,
+      "status": 1,
+      "service": {
+        "id": 2,
+        "name": "Unhas",
+        "value": 50,
+        "estimated_time": 40
+      },
+      "created_at": "2025-04-15T13:25:36.289Z",
+      "updated_at": "2025-04-15T13:25:36.289Z"
+    },
+    {
+      "id": "e7c6",
+      "user_id": 2,
+      "day": 22,
+      "month": 3,
+      "weekday": "Ter",
+      "year": 2025,
+      "hour": 15,
       "minute": 0,
-      "service_id": 1
+      "status": 1,
+      "service": {
+        "id": 3,
+        "name": "Hidratação",
+        "value": 80,
+        "estimated_time": 60
+      },
+      "created_at": "2025-04-15T13:27:41.722Z",
+      "updated_at": "2025-04-15T13:27:41.722Z"
+    },
+    {
+      "id": "1db6",
+      "user_id": 2,
+      "day": 22,
+      "month": 3,
+      "weekday": "Seg",
+      "year": 2025,
+      "hour": 15,
+      "minute": 0,
+      "status": 1,
+      "service": {
+        "id": 2,
+        "name": "Unhas",
+        "value": 50,
+        "estimated_time": 40
+      },
+      "created_at": "2025-04-15T13:32:07.084Z",
+      "updated_at": "2025-04-15T13:32:07.084Z"
     }
   ]
 }
