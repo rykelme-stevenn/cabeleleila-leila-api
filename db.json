@@ -33,6 +33,12 @@
       "name": "Hidratação",
       "value": 80,
       "estimated_time": 60
+    },
+    {
+      "id": 4,
+      "name": "Tingir",
+      "value": 24.3,
+      "estimated_time": 60
     }
   ],
   "schedulings": [
@@ -109,44 +115,6 @@
       "updated_at": "2025-04-15T13:14:24.193Z"
     },
     {
-      "id": "asd3",
-      "user_id": 2,
-      "day": 14,
-      "month": 3,
-      "weekday": "Seg",
-      "year": 2025,
-      "hour": 10,
-      "minute": 10,
-      "status": 3,
-      "service": {
-        "id": 1,
-        "name": "Cabelos",
-        "value": 155,
-        "estimated_time": 70
-      },
-      "created_at": "2025-04-15T13:14:24.193Z",
-      "updated_at": "2025-04-15T13:14:24.193Z"
-    },
-    {
-      "id": "767b",
-      "user_id": 1,
-      "day": 20,
-      "month": 3,
-      "weekday": "Dom",
-      "year": 2025,
-      "hour": 13,
-      "minute": 40,
-      "status": 2,
-      "service": {
-        "id": 2,
-        "name": "Unhas",
-        "value": 50,
-        "estimated_time": 40
-      },
-      "created_at": "2025-04-15T13:24:39.542Z",
-      "updated_at": "2025-04-15T13:24:39.542Z"
-    },
-    {
       "id": "9f05",
       "user_id": 2,
       "day": 20,
@@ -202,6 +170,23 @@
       },
       "created_at": "2025-04-15T13:32:07.084Z",
       "updated_at": "2025-04-15T13:32:07.084Z"
+    },
+    {
+      "user_id": 2,
+      "day": 16,
+      "month": 3,
+      "weekday": "Qua",
+      "year": 2025,
+      "hour": 13,
+      "minute": 0,
+      "status": 1,
+      "service": {
+        "id": 3,
+        "name": "Hidratação",
+        "value": 80,
+        "estimated_time": 60
+      },
+      "id": "9ac7"
     }
   ]
 }
